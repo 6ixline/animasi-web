@@ -4,10 +4,13 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App bg-black h-full">
+    <div className="Apph-full">
       <header className='px-5 py-2'>
         <img src={logo} className="w-12" alt="logo"  />
       </header>
+      <div className="crousel flex justify-center align-middle">
+          <p>Main Body</p>
+      </div>
     </div>
   );
 }
