@@ -42,7 +42,7 @@ function App() {
        loop={true}
        pagination={{ clickable: true }}
     >
-      <img src={logo} className='w-12 rounded-lg absolute top-5 left-5 z-30 ' alt="" />
+      <img src={logo} className='w-12 rounded-lg absolute top-5 left-5 z-40' alt="" />
 
       {
        trendingAnime && trendingAnime.map((item:any)=>{
